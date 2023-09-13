@@ -9,10 +9,10 @@ const StudentCard = ({ img_url, student_data, id }) => {
   const [open, setOpen] = useState(false);
 
   const default_image =
-    "https://plus.unsplash.com/premium_photo-1664392535366-b77ac4a0e880?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1960&q=80";
+    "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFuJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60";
   console.log("card");
   return (
-    <div className="basis-[32%]">
+    <div className="w-[100%] md:w-[49%] lg:w-[32%]">
       <div>
         <img
           className="w-full"
